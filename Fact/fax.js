@@ -1,32 +1,15 @@
-// change the visibility of divId
-function changeVisibility(divId){
-	let elem = document.getElementById(divId);
-	
-	// if elem exist, it is considered true
-	if(elem) {
-		elem.className = (elem.className == 'hidden')? 'unhidden' : 'hidden';
-	} // if
-} // changeVisibility
-
-function facts() {
-	let bigImage = document.getElementById("bigImage");
-	let image = new Image(); // new image object
-	
-	// update the big image to access
-	image.src = "images/" + imageFile;
-	
-	// force big image to prekiad so we can access width
-	// to center image on page
-	image.onload = function (){
-		let width = image.width;
-		document.getElementById("boundaryBigImage").style.width = width + "px";
-	};
-	
-	bigImage.src = image.src;
-	bigImage.alt = alt;
-	
-	changeVisibility("lightbox");
-	changeVisibility("positionBigImage");
-		
-
-} // displayLightBox
+function fact1(){
+	document.getElementById("fact").innerHTML = "No number from 1 to 999 includes the letter “a” in its word form.";
+}
+function fact2(){
+	document.getElementById("fact").innerHTML = "All odd numbers have the letter “e” in its word form.";
+}
+function fact3(){
+	document.getElementById("fact").innerHTML = "The electric chair was invented by a dentist.";
+}
+function fact4(){
+	document.getElementById("fact").innerHTML = "More people are killed annually by donkeys than airplane crashes.";
+}
+function fact5(){
+	document.getElementById("fact").innerHTML = "Los Angeles's full name is: “El Pueblo de Nuestra Senora la Reina de losAngeles de Poriuncula” and can be abbreviated to 3.63% of its size, “LA.” ";
+}
