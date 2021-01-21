@@ -1,0 +1,51 @@
+
+h1 {
+	font-size: 50px;
+	text-transform: uppercase;	
+	font-weight: 200; 
+	text-decoration: none;
+}
+
+body {
+	background-color: #14C6F7;
+	color: #2E1E7D;
+	text-align: center;
+}
+
+button {
+	margin: 30px auto 0;
+	padding: 20px 25px;
+	background-color: #216391;
+	color: #D4EDFF;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #216391;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 4px;
+	outline: none;
+}
+
+button:hover {
+	transition: 0.3s;
+	background-color: #1B2B47;
+	color: #D4EDFF;
+	text-decoration: underline;
+}
+
+#factbox {
+	margin: 30px auto 0;
+	padding: 20px 25px;
+	height: 90px;
+	width: 583px;
+	background-color: #216391;
+}
+
+#facts {
+	
+	color: #D4EDFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	outline: none;
+}
